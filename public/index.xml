@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>iace.tech</title>
+    <link>https://www.iace.tech/</link>
+    <description>Recent content on iace.tech</description>
+    <image>
+      <url>https://www.iace.tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.iace.tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.iace.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello_world</title>
+      <link>https://www.iace.tech/hello_world/</link>
+      <pubDate>Sun, 28 Nov 2021 17:13:27 +0800</pubDate>
+      
+      <guid>https://www.iace.tech/hello_world/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
