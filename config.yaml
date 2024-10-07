@@ -1,7 +1,8 @@
 baseURL: "https://www.iace.tech/"
 title: iace.tech
-paginate: 5
 theme: PaperMod
+pagination:
+  pagerSize: 5
 
 enableRobotsTXT: true
 buildDrafts: false
