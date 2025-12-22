@@ -80,3 +80,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: azure/k8s-set-context@v4
+        with:
+          method: kubeconfig
+          kubeconfig: ${{ secrets.KUBE_CONFIG }}
+          context: blog
+      - name: Deploy to Kubernetes
+        run : |
+          kubectl rollout restart deployment nginx -n nginx --insecure-skip-tls-verify=true
