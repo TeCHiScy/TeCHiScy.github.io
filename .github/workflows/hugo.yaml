@@ -87,4 +87,4 @@ jobs:
           context: blog
       - name: Deploy to Kubernetes
         run : |
-          kubectl rollout restart deployment nginx -n nginx --insecure-skip-tls-verify=true
+          kubectl rollout restart deployment blog -n default
